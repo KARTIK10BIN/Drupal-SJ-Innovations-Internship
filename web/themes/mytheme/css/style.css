@@ -1,0 +1,163 @@
+header#navbar {
+  max-width: 100%;
+  padding: 0px;
+  margin: 10 auto;
+  min-width: -webkit-fill-available;
+  height: 100%;
+}
+
+.main-container.container.js-quickedit-main-content {
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  min-width: -webkit-fill-available;
+  height: 100%;
+}
+
+/*Slideshow - Flexslider*/
+.nslide a {
+    color: #ffffffc5;
+    text-decoration: none;
+  }
+
+.nslide a:hover {
+    /*color: #e9b890;*/
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+.nslide, h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000cb;
+    padding: 10px;
+}
+
+section#block-views-block-book-grid-block-1 {
+  margin-top: 20px;
+}
+
+.views-field.views-field-title a {
+  color: #0b6884;
+  text-decoration: none;
+}
+
+.views-field.views-field-title a:hover {
+  color: #610b84;
+  text-decoration: none;
+}
+
+.views-view-grid .views-row {
+  float: left;
+  clear: both;
+  width: 100%;
+  border: 3px solid #eee;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: -webkit-center;
+}
+
+span.views-label.views-label-field-book-author {
+  font-weight: bolder;
+}
+
+
+.views-field.views-field-field-book-description {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+/*featured books block setting front page*/
+section#block-views-block-featured-book-block-1 {
+  margin-top: 50px;
+}
+.fbrow {
+  width: 45%;
+  float: left;
+  border: 3px solid #eee;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: -webkit-center;
+}
+
+/*Most sold books block setting front page*/
+section#block-views-block-most-sold-book-block-1 {
+  width: 45%;
+  position: absolute;
+  right: 0;
+  bottom: 475px;
+}
+.msbook {
+  float: left;
+  border: 3px solid #eee;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: -webkit-center;
+}
+
+/*book carousel front page last block spacing between books*/
+section#block-views-block-book-carousal-block-1 {
+  margin-top: 50px;
+}
+.owl-item {
+  text-align: -webkit-center;
+  margin-right: 50px;
+}
+
+/*Cart block coloring*/
+.cart--cart-block {
+  padding: 10px;
+  background: #faebd7c2;
+  border-radius: 6px;
+}
+.cart--cart-block img.img-responsive {
+  padding: 2px;
+  background: #d2691e8f;
+  border-radius: 5px;
+}
+.cart-block--contents__inner {
+  padding: 10px;
+  background: #8a6d3b4f;
+  border-radius: 5px;
+}
+
+/*book store articles individual spacing*/
+article {
+  padding-left: 40px;
+}
+.product--variation-field--variation_price__66.field.field--name-price.field--type-commerce-price.field--label-above {
+  padding-top: 20px;
+}
+.field.field--name-field-book-author.field--type-string.field--label-above {
+  padding-bottom: 10px;
+}
+.field.field--name-field-book-rating.field--type-decimal.field--label-above {
+  padding-bottom: 10px;
+}
+
+/*News view news column front page*/
+.form-group .views-row {
+  padding-bottom: 40px;
+}
+
+/*News articles individual spacing*/
+.field.field--name-field-description.field--type-text-with-summary.field--label-above {
+  padding-top: 20px;
+}
+.field.field--name-field-content.field--type-text-long.field--label-above {
+  padding-top: 10px;
+}
+.field.field--name-field-author.field--type-string.field--label-above {
+  padding-top: 10px;
+}
+.field.field--name-field-published-at.field--type-timestamp.field--label-above {
+  padding-top: 10px;
+}
+.field.field--name-field-p-at.field--type-timestamp.field--label-above {
+  padding-top: 10px;
+}
