@@ -3,6 +3,8 @@ Admin username and password sent in text box with link to this repository while 
 This is a News publication a nd book store demo website.
 News is fetched using the NEWS API in the feeds module and Books are fetched  and stored using a CSV file.
 
+Database is in .rar file named drupalstore.rar
+
 Kartik Binagekar\
 Computer Engineering Student\
 PCCE, Verna\
